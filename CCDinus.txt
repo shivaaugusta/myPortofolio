@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h2><center>Formulir Pendaftaran</center></h2>
+    <h2><center> Pencari Kerja & Campus Hiring</center></h2>
+    <font face="Times New Roman" size="4">
+        <center><table border="0">
+    </font>
+    
+    <table><tr>
+        <center>Sudah pernah mendaftar sebagai pencari kerja? <input type="submit" value="login"></center>
+        <p>Data Login</p>
+    </tr></table>
+    <table border = 0>
+        <form>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="20" placeholder="Username untuk login"></td>
+            </tr>
+        
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" name="password" placeholder="Password untuk login"></td>
+            </tr>
+        
+            <tr>
+                <td>Konfirmasi Password</td>
+                <td>:</td>
+                <td><input type="password" name="tempat" size="20" placeholder="Konfirmasi password diatas"></td>
+            </tr>
+        </form>
+    </table>
+    <table><tr>
+        <p>Data Pribadi</p>
+    </tr></table>
+    <table border="0">
+        <form>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="20" placeholder="Nama Lengkap"></td>
+            </tr>
+
+            <tr>
+                <td>Alamat Email</td>
+                <td>:</td>
+                <td><input type="email" name="email" size="20" placeholder="Alamat Email (Rekomendasi:GMAIL/mhs)"></td>
+            </tr>
+
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="alamat" size="20" placeholder="Contoh : Semarang"></td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal" size="20"></td>
+            </tr>
+
+            <tr>
+                <td>No KTP</td>
+                <td>:</td>
+                <td><input type="text" name="noktp" size="20" placeholder="Contoh : 1234560101200001"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Jenis Kelamin-</option>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea cols="22" rows="3" placeholder="Alamat lengkap"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Kota/Kabupaten</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Kota-</option>
+                    <option>Semarang</option>
+                    <option>Yogyakarta</option>
+                    <option>Magelang</option>
+                    <option>Pekalongan</option>
+                    <option>Depok</option>
+                    <option>Sukabumi</option>
+                    <option>Banjar</option>
+                    <option>Tegal</option>
+
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Kode Pos</td>
+                <td>:</td>
+                <td><input type="kodepos" name="kodepos" placeholder="Contoh : 50101"></td>
+            </tr>
+
+            <tr>
+                <td>No Telepon</td>
+                <td>:</td>
+                <td><input type="text" name="notlp" size="20" placeholder="Contoh : 08923435434"></td>
+            </tr>
+
+            <tr>
+                <td>No Handphone</td>
+                <td>:</td>
+                <td><input type="text" name="nohp" size="20" placeholder="Contoh : 08128237487"></td>
+            </tr>
+
+            <tr>
+                <td>Kewarganegaraan</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Kewarganegaraan-</option>
+                    <option>WNI</option>
+                    <option>WNA</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Status Perkawinan</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Status Perkawinan-</option>
+                    <option>Kawin</option>
+                    <option>Tidak Kawin</option>
+                    <option>Janda</option>
+                    <option>Duda</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Agama-</option>
+                    <option>Islam</option>
+                    <option>Kristen</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Pendidikan Tertinggi</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Pendidikan Tertinggi-</option>
+                    <option>SD</option>
+                    <option>SMP</option>
+                    <option>SMA</option>
+                    <option>D3</option>
+                    <option>S1</option>
+                    <option>S2</option>
+                    <option>S3</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="nim" size="20" placeholder="(Kosongkan jika bukan alumni)"></td>
+            </tr>
+
+            <tr>
+                <td>IPK</td>
+                <td>:</td>
+                <td><input type="text" name="ipk" size="20" placeholder="Contoh : 3.87"></td>
+            </tr>
+
+            <tr>
+                <td>Bidang</td>
+                <td>:</td>
+                <td><select>
+                    <option>-Pilih Bidang-</option>
+                    <option>Administrasi</option>
+                    <option>Advokat</option>
+                    <option>Akunting</option>
+                    <option>Arsitek</option>
+                    <option>Auditor</option>
+                    <option>Asuransi</option>
+                    <option>Bidang Jasa</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>penyandang disabilitas?</td>
+                <td>:</td>
+                <td><input type="text" name="penyandang" size="20"></td>
+            </tr>
+
+
+
+        </form>
+    </table>
+
+    <input type="submit" value="Daftar">
+
+</body>
+</html>
